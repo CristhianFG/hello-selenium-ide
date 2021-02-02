@@ -1,0 +1,103 @@
+{
+  "id": "68fef216-6620-44c0-b56f-3a2c7fb6c316",
+  "version": "2.0",
+  "name": "hello-selenium-ide",
+  "url": "https://www.imdb.com",
+  "tests": [{
+    "id": "d041edfe-f55c-4ab9-9ea3-f17e7a067ac1",
+    "name": "IMBD",
+    "commands": [{
+      "id": "f6d68d22-93d3-45e0-8f43-e1a85e940c78",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa9daf45-bc5b-4aac-b184-cdc51972eb1b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "729x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73486dcb-e431-4502-8d52-67846fcd12c9",
+      "comment": "",
+      "command": "click",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c05b3607-a2b0-4403-94d2-082f723586c1",
+      "comment": "",
+      "command": "type",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "wandavision"
+    }, {
+      "id": "b4bbd491-962d-4dd7-99c3-9be097577793",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "40ce86b5-a55c-4d05-90f8-d1fa45ebe565",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WandaVision",
+      "targets": [
+        ["linkText=WandaVision", "linkText"],
+        ["css=.findSection:nth-child(3) .findResult:nth-child(1) > .result_text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WandaVision')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/title/tt9140560/?ref_=fn_al_tt_1')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WandaVision')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "762ea055-71bc-49eb-bd70-2529d379ff68",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tr4371535 > .sodatext",
+      "targets": [
+        ["css=#tr4371535 > .sodatext", "css:finder"],
+        ["xpath=//div[@id='tr4371535']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ce3d858-87b3-4bd0-942e-683d32be1727",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.imdb.com/"],
+  "plugins": []
+}

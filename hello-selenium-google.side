@@ -1,0 +1,166 @@
+{
+  "id": "c6bd4f66-d019-4869-8a7a-5fde2541e166",
+  "version": "2.0",
+  "name": "hello-selenium-google",
+  "url": "https://www.google.es",
+  "tests": [{
+    "id": "0c02ad17-fc75-4a79-8991-13e2e15b99eb",
+    "name": "search-devops",
+    "commands": [{
+      "id": "3e6fc4d7-ac10-4a2a-b893-cad50ee677c2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9dc55c7-86d5-41a0-a9d7-5c3ba9e2efce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "731x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "29eaed19-6a16-407a-ad5f-646250e6960a",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88c7df6c-c1c6-4e51-8e93-69753c05fbc3",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "devops"
+    }, {
+      "id": "aee639e0-24b6-445c-9f34-94b1172e2353",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }, {
+    "id": "0409c263-97b0-4790-b7bf-70ed241d4f26",
+    "name": "search-devops-privacity",
+    "commands": [{
+      "id": "35508e82-0fdc-4e47-abb7-39dfc889fbec",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45d4810a-7e4d-43fa-8765-bc907db062ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "731x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b797fc9-049a-44cd-a834-66126a252ab6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "37952f4b-03cb-4f19-a116-f71f577d1ed1",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a611779-03a3-4fee-a439-a8b82cc62e58",
+      "comment": "",
+      "command": "click",
+      "target": "css=#introAgreeButton .RveJvd",
+      "targets": [
+        ["css=#introAgreeButton .RveJvd", "css:finder"],
+        ["xpath=//div[@id='introAgreeButton']/span/span", "xpath:idRelative"],
+        ["xpath=//form/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf359536-cc6e-45a8-877c-e08928ad80c7",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b8dac50-a704-4539-8d2f-964841e59f30",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "devops"
+    }, {
+      "id": "6e7f72d3-d386-4f31-a6f7-9b62d52511b4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div[2]/div/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "67182db5-b2ea-4f53-bf9d-bacd8c320bb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(2) > .g .LC20lb > span",
+      "targets": [
+        ["css=div:nth-child(2) > .g .LC20lb > span", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div[3]/div/div/a/h3/span", "xpath:idRelative"],
+        ["xpath=//h3/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Qué es DevOps (y sobre todo qué no es DevOps) - Paradigma')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "aa2dda81-729c-41d8-afe6-e8dd8a6e3dbd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0c02ad17-fc75-4a79-8991-13e2e15b99eb"]
+  }],
+  "urls": ["https://www.google.es/"],
+  "plugins": []
+}
